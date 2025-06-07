@@ -17,7 +17,7 @@ import joblib
 from sklearn.preprocessing import StandardScaler
 
 # Load model yang sudah disimpan sebelumnya
-reg_model = joblib.load('flood_probability_regressor.pkl')
+reg_model = joblib.load('flood_probability_regressor_new.pkl')
 clf_model = joblib.load('flood_risk_classifier.pkl')
 kmeans_model = joblib.load('kmeans_model.pkl')
 scaler = joblib.load('scaler.pkl')
